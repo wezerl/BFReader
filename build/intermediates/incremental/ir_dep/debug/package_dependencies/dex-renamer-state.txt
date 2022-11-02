@@ -1,0 +1,4 @@
+#Wed Nov 02 19:42:50 CET 2022
+base.0=F\:\\GitHub\\Reader_SSI\\build\\intermediates\\transforms\\dexMerger\\debug\\10
+path.0=classes.dex
+renamed.0=classes.dex
