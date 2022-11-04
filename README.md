@@ -1,81 +1,76 @@
-botforum RedReader (for Android)
-=======================
+RedReader
+=========
 
-A [botforum](https://botforum.net) fork of RedReader, an unofficial open source client for reddit.
+An unofficial, open source Android client for Reddit.
 
-![Build Status](https://travis-ci.org/QuantumBadger/RedReader.svg?branch=master)
+![CI](https://github.com/wezerl/RedReader/workflows/CI/badge.svg?branch=master)
 [![Translation status](https://hosted.weblate.org/widgets/redreader/-/svg-badge.svg)](https://hosted.weblate.org/engage/redreader/?utm_source=widget)
+
+[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
+      alt="Get it on Google Play"
+      height="80">](https://play.google.com/store/apps/details?id=org.wezerl.bfreader)
+[<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
+     alt="Get it on F-Droid"
+     height="80">](https://f-droid.org/packages/org.wezerl.bfreader/)
 
 Features
 --------
 
-* Free and Open Source Software - no ads/tracking.
+* Free and open-source Software - no ads/tracking
 * Lightweight and fast
-* Downloads are compressed to save bandwidth.
-* Support for multiple accounts.
-* Several themes such as Night mode (i.e. dark theme) and Holo
-* Swipe posts left and right to perform customisable actions, such as
-  upvote/downvote, or save/hide.
-* Advanced cache management - automatically stores past versions of
-  posts and comments.
-* Two-column tablet mode (can be used on your phone, if it's big enough)
-* Image and comment precaching (optional: always, never, or Wi-Fi only).
-* Built-in image viewer, imgur album viewer, GIF player, and
-  webm/mp4/gifv player.
+* Swipe posts left and right to perform customizable actions, such as
+    upvote/downvote, or save/hide
+* Advanced cache management - automatically stores past versions of posts and
+    comments
+* Support for multiple accounts
+* Two-column tablet mode (can be used on your phone, if it’s big enough)
+* Image and comment precaching (optional: always, never, or Wi-Fi only)
+* Built-in image viewer, and GIF/video player
+* Multiple themes, including night mode, and ultra black for AMOLED displays
+* Support for Android 4.0+
 
 
 Downloading
 -----------
 
-botforum RedReader is available for free on the Google Play store and F-Droid:
+RedReader is available for free on the Google Play store:
 
-* https://play.google.com/store/apps/details?id=org.botforum.redreader
-* https://f-droid.org/packages/org.botforum.redreader/
+https://play.google.com/store/apps/details?id=org.wezerl.bfreader
 
-[<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
-      alt="Get it on Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=org.botforum.redreader)
-[<img src="https://f-droid.org/badge/get-it-on.png"
-     alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/org.botforum.redreader/)
+RedReader can also be found for free on F-Droid:
+
+https://f-droid.org/app/org.wezerl.bfreader
+
+The Google Play APKs are also available here:
+
+https://github.com/wezerl/RedReader/releases
+
 
 Translating
 -----------
 
-Please help us translate RedReader into new languages, or improve the translations for existing languages!
+Please help us translate RedReader into new languages, or improve the
+translations for existing languages!
 
 https://hosted.weblate.org/projects/redreader/strings/
 
-[![Translation status](https://hosted.weblate.org/widgets/redreader/-/svg-badge.svg)](https://hosted.weblate.org/engage/redreader/?utm_source=widget)
+[![Translation status](https://hosted.weblate.org/widgets/redreader/-/287x66-grey.png)](https://hosted.weblate.org/engage/redreader/?utm_source=widget)
+
+
+Pull Requests
+-------------
+
+Please see the contribution guidelines in
+ [CONTRIBUTING.md](CONTRIBUTING.md). 
 
 
 Building
 --------
 
-RedReader is built using Gradle. Several dependencies are required (and
-listed in build.gradle), but these are handled automatically if you use
-Gradle.
+RedReader is built using Gradle. On Linux, simply run:
 
-Detailed instructions on building RedReader using IntelliJ IDEA are in
-[BUILD.md](BUILD.md).
+    ./gradlew installDebug
 
-botforum/reddit open source porting guide
-----------------------
-
-E.g. instead of org.quantumbadger.redreader use org.botforum.redreader:
-
-    $ git clone https://github.com/QuantumBadger/RedReader.git
-    $ cd RedReader
-    $ mv src/main/java/org/quantumbadger src/main/java/org/botforum
-    $ find ./src -type f -exec sed -i -e 's/org.quantumbadger./org.botforum./g' {} \;
-    $ find ./build.gradle -type f -exec sed -i -e 's/org\/quantumbadger/org\/botforum/g' {} \;
-
-Configuration:
-
-* Create a botforum/reddit open source user account for the app, admin/employee accounts cannot own the app
-* In preferences -> apps create an 'installed app' which is read only with no secret key for anonymous/guest app users
-* Set the app's `redirect url` to `http://rr_oauth_redir`
-* Set RedReader's `CLIENT_ID` to the botforum/reddit app id
 
 License
 -------
@@ -86,13 +81,5 @@ included in [LICENSE.txt](LICENSE.txt).
 
 Thanks
 ------
-
-Thanks to:
-
-* QuantumBadger and RedReader contributors
-* tomorrowkey.jp, for the [GIF decoder](https://code.google.com/p/android-gifview/) (Apache License 2.0)
-* Apache, for various libraries
-* The [Jackson JSON processor](http://jackson.codehaus.org/)
-* [Joda](http://joda-time.sourceforge.net/)
 
 A full list of contributors is included in the [changelog](assets/changelog.txt).

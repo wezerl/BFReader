@@ -1,26 +1,27 @@
 <?xml version="1.0" encoding="utf-8"?>
 <FrameLayout
 		xmlns:android="http://schemas.android.com/apk/res/android"
-		android:layout_width="match_parent"
+		xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
 		android:layout_height="match_parent">
 
-	<android.support.v4.widget.SwipeRefreshLayout
+	<androidx.swiperefreshlayout.widget.SwipeRefreshLayout
 			android:id="@+id/scrollbar_recyclerview_refreshlayout"
 			android:layout_width="match_parent"
 			android:layout_height="match_parent">
 
-		<android.support.v7.widget.RecyclerView
+		<androidx.recyclerview.widget.RecyclerView
 				android:id="@+id/scrollbar_recyclerview_recyclerview"
 				android:layout_width="match_parent"
 				android:layout_height="match_parent"/>
 
-	</android.support.v4.widget.SwipeRefreshLayout>
+	</androidx.swiperefreshlayout.widget.SwipeRefreshLayout>
 
 	<FrameLayout
 			android:id="@+id/scrollbar_recyclerview_scrollbarframe"
 			android:layout_width="5dp"
 			android:layout_height="match_parent"
-			android:layout_gravity="right">
+			android:layout_gravity="right"
+			tools:ignore="RtlHardcoded">
 
 		<View
 				android:id="@+id/scrollbar_recyclerview_scrollbar"

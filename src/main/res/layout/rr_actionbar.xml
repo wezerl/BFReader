@@ -6,24 +6,35 @@
 		android:layout_width="match_parent"
 		android:layout_height="match_parent">
 
-	<android.support.design.widget.AppBarLayout
+	<com.google.android.material.appbar.AppBarLayout
 			android:layout_width="match_parent"
 			android:layout_height="wrap_content">
 
-		<android.support.v7.widget.Toolbar
+		<androidx.appcompat.widget.Toolbar
 				android:id="@+id/rr_actionbar_toolbar"
 				android:layout_width="match_parent"
 				android:layout_height="?attr/actionBarSize"
-				android:background="?attr/colorPrimary"
+				android:background="?attr/rrActionBarCol"
 				app:titleTextAppearance="@style/RR.Toolbar.TitleText"
 				app:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
 				app:popupTheme="?rrActionBarPopupThemeStyle" />
 
-	</android.support.design.widget.AppBarLayout>
+	</com.google.android.material.appbar.AppBarLayout>
 
 	<FrameLayout
 			android:layout_width="match_parent"
-			android:layout_height="match_parent"
-			android:id="@+id/rr_actionbar_content" />
+			android:layout_height="match_parent">
+
+		<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/rr_actionbar_content_listing" />
+
+		<FrameLayout
+				android:layout_width="match_parent"
+				android:layout_height="match_parent"
+				android:id="@+id/rr_actionbar_content_overlay" />
+
+	</FrameLayout>
 
 </LinearLayout>

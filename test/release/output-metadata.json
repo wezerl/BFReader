@@ -1,0 +1,20 @@
+{
+  "version": 3,
+  "artifactType": {
+    "type": "APK",
+    "kind": "Directory"
+  },
+  "applicationId": "org.wezerl.bfreader",
+  "variantName": "release",
+  "elements": [
+    {
+      "type": "SINGLE",
+      "filters": [],
+      "attributes": [],
+      "versionCode": 103,
+      "versionName": "1.19",
+      "outputFile": "BFReader-release.apk"
+    }
+  ],
+  "elementType": "File"
+}
