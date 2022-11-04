@@ -19,7 +19,7 @@
 <manifest
 		xmlns:android="http://schemas.android.com/apk/res/android"
 		xmlns:tools="http://schemas.android.com/tools"
-		package="org.wezerl.bfreader"
+		package="com.wezerl.bfreader"
 		android:installLocation="auto">
 
     <uses-feature android:glEsVersion="0x00020000" android:required="true" />
@@ -38,7 +38,7 @@
 		</intent>
 	</queries>
 
-    <application android:name="org.wezerl.bfreader.BFReader"
+    <application android:name="com.wezerl.bfreader.BFReader"
                  android:icon="@mipmap/icon"
                  android:label="@string/app_name"
                  android:theme="@style/RR.Startup"
@@ -263,8 +263,8 @@
         <meta-data android:name="com.sec.android.multiwindow.MINIMUM_SIZE_H" android:resource="@dimen/app_minimumsize_h" />
 
 		<provider
-				android:name="org.wezerl.bfreader.cache.CacheContentProvider"
-				android:authorities="org.wezerl.bfreader.cacheprovider"
+				android:name="com.wezerl.bfreader.cache.CacheContentProvider"
+				android:authorities="com.wezerl.bfreader.cacheprovider"
 				android:exported="false"
 				android:grantUriPermissions="true" />
     </application>

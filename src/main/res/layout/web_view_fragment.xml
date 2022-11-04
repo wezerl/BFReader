@@ -21,7 +21,7 @@
              android:layout_width="match_parent"
              android:layout_height="match_parent">
 
-    <org.wezerl.bfreader.views.webview.WebViewFixed
+    <com.wezerl.bfreader.views.webview.WebViewFixed
 			android:id="@+id/web_view_fragment_webviewfixed"
                                                     android:layout_width="match_parent"
                                                     android:layout_height="match_parent"/>

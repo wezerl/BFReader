@@ -58,9 +58,9 @@ android {
 	ndkVersion "23.1.7779620"
 
 	defaultConfig {
-		applicationId "org.wezerl.bfreader"
+		applicationId "com.wezerl.bfreader"
 		minSdkVersion 16
-		targetSdkVersion 30
+		targetSdkVersion 31
 		versionCode 103
 		versionName "1.19"
 

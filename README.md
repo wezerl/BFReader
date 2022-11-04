@@ -8,10 +8,10 @@ An unofficial, open source Android client for Reddit.
 
 [<img src="https://play.google.com/intl/en_us/badges/images/generic/en_badge_web_generic.png"
       alt="Get it on Google Play"
-      height="80">](https://play.google.com/store/apps/details?id=org.wezerl.bfreader)
+      height="80">](https://play.google.com/store/apps/details?id=com.wezerl.bfreader)
 [<img src="https://fdroid.gitlab.io/artwork/badge/get-it-on.png"
      alt="Get it on F-Droid"
-     height="80">](https://f-droid.org/packages/org.wezerl.bfreader/)
+     height="80">](https://f-droid.org/packages/com.wezerl.bfreader/)
 
 Features
 --------
@@ -35,11 +35,11 @@ Downloading
 
 RedReader is available for free on the Google Play store:
 
-https://play.google.com/store/apps/details?id=org.wezerl.bfreader
+https://play.google.com/store/apps/details?id=com.wezerl.bfreader
 
 RedReader can also be found for free on F-Droid:
 
-https://f-droid.org/app/org.wezerl.bfreader
+https://f-droid.org/app/com.wezerl.bfreader
 
 The Google Play APKs are also available here:
 

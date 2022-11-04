@@ -38,7 +38,7 @@ fi
 
 echo "Changing package..."
 git mv src/main/java/org/wezerl/redreader src/main/java/org/wezerl/redreaderalpha
-find . -type f -not -path "*/.git/*" -not -name "README.md" -exec sed -i 's/org\.wezerl\.redreader/org.wezerl.bfreaderalpha/g' {} \;
+find . -type f -not -path "*/.git/*" -not -name "README.md" -exec sed -i 's/org\.wezerl\.redreader/com.wezerl.bfreaderalpha/g' {} \;
 find . -type f -not -path "*/.git/*" -exec sed -i 's/org\/wezerl\/redreader/org\/wezerl\/redreaderalpha/g' {} \;
 
 echo "Changing icon..."

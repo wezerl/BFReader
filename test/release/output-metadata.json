@@ -4,7 +4,7 @@
     "type": "APK",
     "kind": "Directory"
   },
-  "applicationId": "org.wezerl.bfreader",
+  "applicationId": "com.wezerl.bfreader",
   "variantName": "release",
   "elements": [
     {
